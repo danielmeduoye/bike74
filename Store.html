@@ -1,0 +1,227 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike74</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="Bike74.css">
+</head>
+<body>
+    <header>
+        <div class="Logo"><a href="Bike74.html">BIKE74</a></div>
+        <div class="nav">
+            <ul>
+                <li><a href="Bike74.html">Home</a></li>
+                <li><a href="About.html">About Us</a></li>
+                <li><a href="Store.html">Our Store</a></li>
+                <li><a href="Contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="menu-bar">
+            <i class='bx bx-menu'></i>
+        </div>
+        <div class="menu-mobile">
+            <i class='bx bx-x-circle close-menu'></i>
+            <ul>
+                <li><a href="Bike74.html">Home</a></li>
+                <li><a href="About.html">About Us</a></li>
+                <li><a href="Store.html">Our Store</a></li>
+                <li><a href="Contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </header>
+<body>
+    <section class="about-hero">
+        <div class="hero-background">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="fade-in">Our Store </h1>
+                    <p class="slide-in">Discover the various that we are offering. Explore our store today!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <main>
+        <!-- Product Filtering -->
+        <section class="filter-section">
+            <h2>Filter Products</h2>
+            <form id="filter-form">
+                <label for="category">Category:</label>
+                <select id="category" name="category">
+                    <option value="">All Categories</option>
+                    <option value="frame">Frames</option>
+                    <option value="wheels">Wheels</option>
+                    <option value="gears">Gears</option>
+                    <option value="brakes">Brakes</option>
+                </select>
+                <label for="price-range">Price Range:</label>
+                <input type="text" id="price-range" name="price-range" placeholder="e.g. $100 - $500">
+                <button type="submit">Apply Filters</button>
+            </form>
+        </section>
+
+        <!-- Product Grid -->
+        <section class="product-section">
+            <div class="container">
+                <div class="product-grid">
+                    <!-- Example Product Card -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/product 1.png" alt="Product Name">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">OAKLEY SUTRO</h3>
+                            <p class="product-price">$99.99</p>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/p2.png" alt="Product Name">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Ambush II MIPS Helmet</h3>
+                            <p class="product-price">$127.99</p>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/p3.png" alt="Product Name">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Ambush II MIPS Helmet</h3>
+                            <p class="product-price">$299.99</p>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/p4.png" alt="Product Name">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">tout terrain Vasco GT 28 </h3>
+                            <p class="product-price">$99.99</p>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/akrapovic_slip_on_exhausts_750x750-removebg-preview.png" alt="Product Name">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Akrapovic Slip-On Exhausts</h3>
+                            <p class="product-price">$329.99</p>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/newp.png" alt="Product Name">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">New Rage Cycles LED Fender Eliminator</h3>
+                            <p class="product-price">$199.99</p>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/puig_touring_windscreen_750x750-removebg-preview.png" alt="Product Name">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Puig Touring Windscreen</h3>
+                            <p class="product-price">$399.99</p>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/rizoma_stealth_mirrors_750x750-removebg-preview.png" alt="Product Name">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Rizoma Stealth Mirrors</h3>
+                            <p class="product-price">$899.99</p>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/ebc_double_h_sintered_front_brake_pads_750x750-removebg-preview.png" alt="Product Name">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">EBC Double-H Sintered Front Brake Pads</h3>
+                            <p class="product-price">$29.99</p>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/dynojet_power_commander_v_750x750-removebg-preview.png" alt="Product Name">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Dynojet Power Commander V</h3>
+                            <p class="product-price">$699.99</p>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <!-- Repeat Product Cards as needed -->
+                </div>
+            </div>
+        </section>
+        
+        <div class="pagination">
+            <ul>
+                <li class="disabled"><a href="#">«</a></li> <!-- Previous -->
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li class="active"><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">»</a></li> <!-- Next -->
+            </ul>
+        </div>
+    </main>
+</body>
+    <footer>
+    <div class="footer-container">
+        <div class="footer-column">
+            <h4>About Us</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet neque nec nunc facilisis dignissim.</p>
+            <ul>
+                <li><a href="About.html">Our Story</a></li>
+                <li><a href="Team.html">Meet the Team</a></li>
+                <li><a href="Careers.html">Careers</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="Bike74.html">Home</a></li>
+                <li><a href="Store.html">Store</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h4>Contact Us</h4>
+            <p>123 Bike Street, City, Country</p>
+            <p>Email: <a href="mailto:info@bike74.com">info@bike74.com</a></p>
+            <p>Phone: <a href="tel:+1234567890">+123 456 7890</a></p>
+            <div class="social-media">
+                <a href="#" class="social-icon"><i class='bx bxl-facebook'></i></a>
+                <a href="#" class="social-icon"><i class='bx bxl-twitter'></i></a>
+                <a href="#" class="social-icon"><i class='bx bxl-instagram'></i></a>
+                <a href="#" class="social-icon"><i class='bx bxl-linkedin'></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Bike74. All rights reserved.</p>
+    </div>
+</footer>
+<script src="Bike74.js"></script>
+
+</html>

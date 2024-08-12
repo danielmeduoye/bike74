@@ -1,0 +1,274 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike74</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="Bike74.css">
+</head>
+<body>
+    <header>
+        <div class="Logo"><a href="Bike74.html">BIKE74</a></div>
+        <div class="nav">
+            <ul>
+                <li><a href="Bike74.html">Home</a></li>
+                <li><a href="About.html">About Us</a></li>
+                <li><a href="Store.html">Our Store</a></li>
+                <li><a href="Contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="menu-bar">
+            <i class='bx bx-menu'></i>
+        </div>
+        <div class="menu-mobile">
+            <i class='bx bx-x-circle close-menu'></i>
+            <ul>
+                <li><a href="Bike74.html">Home</a></li>
+                <li><a href="About.html">About Us</a></li>
+                <li><a href="Store.html">Our Store</a></li>
+                <li><a href="Contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </header>
+    
+    
+    <section class="hero">
+        <div class="hero-carousel">
+            <div class="hero-slide">
+                <div class="slide-content">
+                    <h1>Luxury Bikes for Every Ride</h1>
+                    <h2>Unmatched Quality and Style</h2>
+                    <p>Discover our premium collection of luxurious bikes designed for comfort, style, and performance. Experience the ultimate ride with every journey.</p>
+                    <a href="#" class="cta-button">Explore Our Collection</a>
+                </div>
+                <div class="slide-image">
+                    <img src="images/ezgif-4-80c392618b-removebg-preview.png" alt="Luxury Bike 1">
+                </div>
+            </div>
+            <div class="hero-slide">
+                <div class="slide-content">
+                    <h1>Innovative Design</h1>
+                    <h2>Crafted for Perfection</h2>
+                    <p>Our bikes feature cutting-edge design and technology to ensure the best riding experience. Explore designs that blend innovation with elegance.</p>
+                    <a href="#" class="cta-button">See Our Designs</a>
+                </div>
+                <div class="slide-image">
+                    <img src="images/view-cool-motorcycle_23-2150704771-removebg-preview.png" alt="Luxury Bike 2">
+                </div>
+            </div>
+            <div class="hero-slide">
+                <div class="slide-content">
+                    <h1>Ride with Confidence</h1>
+                    <h2>Exceptional Performance</h2>
+                    <p>From city commutes to adventurous trails, our bikes offer reliability and performance you can count on. Get ready to ride with confidence.</p>
+                    <a href="#" class="cta-button">Find Your Ride</a>
+                </div>
+                <div class="slide-image">
+                    <img src="images/rednew.png" alt="Luxury Bike 3">
+                </div>
+            </div>
+        </div>
+        <!-- Carousel Indicators -->
+        <div class="carousel-indicators">
+            <button class="indicator active" onclick="showSlide(0)"></button>
+            <button class="indicator" onclick="showSlide(1)"></button>
+            <button class="indicator" onclick="showSlide(2)"></button>
+        </div>
+        <!-- Carousel Controls -->
+        <button class="carousel-control prev" onclick="prevSlide()">❮</button>
+        <button class="carousel-control next" onclick="nextSlide()">❯</button>
+    </section>
+    
+    <section class="about-us">
+        <div class="about-content">
+            <div class="about-text">
+                <h2>About Us</h2>
+                <h1>Who We Are</h1>
+                <p>At Bike74, we pride ourselves on offering a curated selection of luxurious bikes that combine style and performance. Our commitment to quality ensures that each bike delivers an exceptional riding experience. Whether you’re a cycling enthusiast or just starting out, our collection is designed to meet your needs and exceed your expectations.</p>
+            </div>
+            <div class="about-image">
+                <img src="images/view-motorcycles-city-street_23-2150704789.jpg" alt="About Us Image">
+            </div>
+        </div>
+    </section>
+    
+    <section class="category-slider">
+        <div class="category-container">
+            <div class="category-wrapper">
+                <!-- Repeat these cards as needed -->
+                <div class="category-card">
+                    <img src="images/bike lights.jpeg" alt="Category 1">
+                    <h3>Bike lights</h3>
+                </div>
+                <div class="category-card">
+                    <img src="images/bike wheels.jpg" alt="Category 2">
+                    <h3>Bike Wheels</h3>
+                </div>
+                <div class="category-card">
+                    <img src="images/maintance kit.jpeg" alt="Category 3">
+                    <h3>maintainance Kit</h3>
+                </div>
+                <div class="category-card">
+                    <img src="images/bike frame.jpg" alt="Category 4">
+                    <h3>bike frames</h3>
+                </div>
+                <div class="category-card">
+                    <img src="images/motorjacket.jpg" alt="Category 5">
+                    <h3>Bike Jackets</h3>
+                </div>
+                <div class="category-card">
+                    <img src="images/motor bike helmet.jpeg" alt="Category 6">
+                    <h3>Helmets</h3>
+                </div>
+                <div class="category-card">
+                    <img src="images/motor bike gloves.jpeg" alt="Category 7">
+                    <h3>Bike Gloves</h3>
+                </div>
+                <div class="category-card">
+                    <img src="images/motocycle gear.jpeg" alt="Category 8">
+                    <h3>Category 8</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="testimonial-section">
+        <div class="testimonial-container">
+            <!-- Testimonial Card 1 -->
+            <div class="testimonial-card">
+                <div class="testimonial-img">
+                    <img src="images/isr testimony.png" alt="Testimonial 1">
+                </div>
+                <div class="testimonial-content">
+                    <p>"Bike74 offers the best bikes and service. Highly recommend!"</p>
+                    <h4>John Doe</h4>
+                    <div class="star-rating">
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Testimonial Card 2 -->
+            <div class="testimonial-card">
+                <div class="testimonial-img">
+                    <img src="images/2nd ter.png" alt="Testimonial 2">
+                </div>
+                <div class="testimonial-content">
+                    <p>"Great selection and even better customer service. Five stars!"</p>
+                    <h4>Jerry Smith</h4>
+                    <div class="star-rating">
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Testimonial Card 3 -->
+            <div class="testimonial-card">
+                <div class="testimonial-img">
+                    <img src="images/handsomewhite.jpg" alt="Testimonial 3">
+                </div>
+                <div class="testimonial-content">
+                    <p>"Amazing experience. The bikes are top-notch and the staff is friendly."</p>
+                    <h4>Kelvin George</h4>
+                    <div class="star-rating">
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="enquiry-section">
+        <div class="enquiry-container">
+            <div class="enquiry-text">
+                <h2 class="heading">Have Questions? We’re Here to Help!</h2>
+                <p class="sub-heading">Get in touch with us for any queries about our luxurious bikes and services. Our team is ready to assist you with detailed information and support.</p>
+                <form class="enquiry-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+    
+                    <button type="submit">Send Enquiry</button>
+                </form>
+            </div>
+            <div class="enquiry-image">
+                <img src="images/man-cafe-racer-style-motorbike_23-2148189621.jpg" alt="Enquiry Image">
+            </div>
+        </div>
+    </section>
+    
+    <section id="subscribe">
+        <div class="subscribe-container">
+            <div class="subscribe-content">
+                <h2>Stay Updated</h2>
+                <p>Subscribe to our newsletter to get the latest updates, promotions, and exclusive offers right in your inbox.</p>
+                <form id="subscribe-form">
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+            <div class="subscribe-image">
+                <img src="images/scooter-isolated-transparent-background_84443-1998-removebg-preview.png" alt="Subscription Image">
+            </div>
+        </div>
+    </section>
+</body>
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-column">
+            <h4>About Us</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet neque nec nunc facilisis dignissim.</p>
+            <ul>
+                <li><a href="About.html">Our Story</a></li>
+                <li><a href="Team.html">Meet the Team</a></li>
+                <li><a href="Careers.html">Careers</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="Bike74.html">Home</a></li>
+                <li><a href="Store.html">Store</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h4>Contact Us</h4>
+            <p>123 Bike Street, City, Country</p>
+            <p>Email: <a href="mailto:info@bike74.com">info@bike74.com</a></p>
+            <p>Phone: <a href="tel:+1234567890">+123 456 7890</a></p>
+            <div class="social-media">
+                <a href="#" class="social-icon"><i class='bx bxl-facebook'></i></a>
+                <a href="#" class="social-icon"><i class='bx bxl-twitter'></i></a>
+                <a href="#" class="social-icon"><i class='bx bxl-instagram'></i></a>
+                <a href="#" class="social-icon"><i class='bx bxl-linkedin'></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Bike74. All rights reserved.</p>
+    </div>
+</footer>
+
+
+<script src="Bike74.js">
+
+</script>
+</html>
